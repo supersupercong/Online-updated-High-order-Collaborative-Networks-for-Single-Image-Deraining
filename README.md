@@ -41,8 +41,9 @@ There exists significant patch recurrence property of a rainy image, that is, si
 ![visual_real_1](figs/visual_real_1.png)
 ![visual_real_2](figs/visual_real_2.png)
 
-### Visual comparisons on the real-world dataset
-<img src="figs/real.png" width="100%">
+### Effectiveness of online-updated learning
+![Effectiveness](figs/results_online.png)
+Ablation study of the proposed online-update learning approach. (a) Input. (b) Only trained on synthetic data. (c) Directly fine-tuned on real-world  images. (d) Online-update learning on real-world images.
 
 ## Installment dependency
 
