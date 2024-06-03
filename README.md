@@ -73,7 +73,7 @@ bash python train.py
 ### Train on real-world data 
 
 ```
-bash python ral_train.py
+bash python real_train.py
 ```
 
 ### Test
