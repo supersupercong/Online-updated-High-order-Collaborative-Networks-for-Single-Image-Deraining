@@ -24,7 +24,9 @@ Extensive experiments demonstrate that our proposed method performs favorably ag
 
 ## Motivation on real-world data
 ```
-There exists significant patch recurrence property of a rainy image, that is, similar patches tend to recur many times in one image and its multi-scale images and external images.
+We note that for each dataset, different rain streaks have similar intensity distributions. 
+However, the distributions of real-world data are significantly different from those of synthetic data, which is probably the reason most of the existing deraining methods trained on Rain100H fail to work on real-world datasets.
+
 ```
 ![framework_img](figs/motivation.png)
 
